@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(95, 80, 67);
+}
+
+#welcome{
+    background-image: url("https://t3.ftcdn.net/jpg/03/65/75/56/360_F_365755691_ylmF7k7q0wxMLIaeZdR7DcKBcKOf5Yot.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+#welcome h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#welcome p{
+    font-size: 25px;
+}
+
+#welcome .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+
+#welcome .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#next{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#next h1{
+    color: rosybrown;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+
+#next p{
+    color:sienna;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+#next h2{
+    color:sienna;
+    font-size: 25px;
+    text-align: center;
+    justify-content: right;
+}
+
+#powerpoint h2{
+    color:rgb(114, 97, 89);
+    font-size: 30px;
+    text-align: left;
+    justify-content: right;
+           
+    
+}
+
+#powerpoint .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+#powerpoint .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+
+}
+
+#power2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.menu-bar{
+    border: 1px solid;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.active, menu-bar ul li:hover{
+
+    background:rgb(173, 154, 154) ;
+    border-radius: 3px;
+}
+
+.menu-bar .fa{
+    color: white;
+    margin: 8px;
+}
+
+#youtube h2{
+    color:rgb(114, 97, 89);
+    font-size: 30px;
+    text-align: left;
+    justify-content: right;
+}
+
+#youtube p{
+    color:sienna;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#youtube .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#youtube .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+}
+
+#youtube2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#customize2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#cutomize h2{
+    font-size: 30px;
+    text-align: left;
+    justify-content: left;
+    color:rgb(114, 97, 89);
+
+}
+
+#cutomize .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#cutomize .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+}
+
+#zoom h2{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(114, 97, 89);
+    justify-content: left;
+}
+
+#zoom .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+#zoom .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+}
+
+#zoom2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#photoshop h2{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(114, 97, 89);
+    justify-content: left;
+
+}
+
+#photoshop .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+}
+
+#photoshop .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#software2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#software h2{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(114, 97, 89);
+    justify-content: left;
+
+}
+
+#software .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+}
+
+#software .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#photoshop2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#problem2{
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#problem h2{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(114, 97, 89);
+    justify-content: left;
+
+}
+
+#problem .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 1s;
+}
+
+#problem .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#last .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 96, 87);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#last .button:hover{
+    background:#926239;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 20px;
+    
+    
+}
+
+.footer p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
